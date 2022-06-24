@@ -1,0 +1,25 @@
+1. mam signup par user ko only 2 point milenge ji mam
+2. billing information ko sahi karna h ji 
+Today   Monthly   Refuded    Total
+3. Url
+4. Admit card/syleebus/result/answekey module
+5. right click and copy and print disable
+6. job sahi dhang se add nahi hoti h 29 no dikhata h kai bar or agar ise reload karte h tab bhi yahi aa jata h
+and ise back kare pe dubara se save ho jati h job mtlb kai kai bar ise sahi kare 
+7. mobile view me filter sahi karne h
+8. latest job applied ko clear karo usme dummey data pada h use hatao aap
+9. user ko money withdraw ka option dena hai 
+10. admin me user details me ye bhi dikhao ki user ne kiske 000
+11. Job intrest base email
+12. referral system sahi nahi h isme jo user signup kar raha h use [oints nahi milte h
+13. user jab form apply kata h tab coupan select hone ke bad de select nahi hota h
+14. admin panel me coupan management me coupan me dali gyi amount bhi dikhao and coupan ko edit ka option bhi 
+do aap or isme date bhi dal dena aap ki ye kab add huva h
+15. user profile me reference history me poora likho Your Reference Code and yaha pe facebook and whatsapp ka logo 
+bi dikhao aap
+16. admin me ambesodor list me ek ambesdor bina vajah aa rha h ise hatana 2ns no pe
+
+
+
+
+

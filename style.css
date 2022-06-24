@@ -1,0 +1,193 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+
+	Author        : Ateeq Rafeeq (https://themeforest.net/user/webfulcreations/portfolio)
+	Template Name : Education Buddy Website Template
+	Version       : 1.0
+	CopyRight     : 2019 january @ www.webfulcreations.com
+
+
+	- Main CSS file is inside assets/css/theme-style.css
+-------------------------------------------------------------------*/
+
+@import 'assets/css/animate.css';	   		  		/* Including Animations CSS file */
+@import 'assets/css/owl.carousel.css';		   		/* Owl Carousel CSS File */
+@import 'assets/css/bootstrap.min.css';      		/* Including bootstrap CSS File */
+@import 'assets/css/theme-styles.css';		   		/* Main Theme CSS File */
+@import 'assets/css/responsive-styles.css';	   		/* Main Theme CSS File */
+@import 'assets/css/fontawesome-all.min.css';	   	/* Including Font Awesome Icons */
+@import 'assets/css/magnific-popup.css';	   		/* Magnific Popup is a responsive lightbox */
+
+
+/**
+ * Import Website Main Fonts 
+ *
+ * To change Fonts Get Google Fonts replace in following Link, 
+ * AFter replacing below go to theme-style.css and update
+ * Font Families
+ *
+ */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300i,400i,600i,300,400,600,700,800|Roboto:300i,400i,500i,300,400,500,700,900" rel="stylesheet';
+
+/*=========================================
+	Below This Line You Can add Your CSS
+	Please Do not Edit Files above if you 
+	are not sure what you are doing!
+==========================================*/
+/* Center website */
+        .main {
+            /* max-width: 1000px; */
+            margin: auto;
+        }
+
+
+        .textblack {
+            color: black;
+        }
+
+        /* Add padding BETWEEN each column */
+
+        .row>.column {
+            padding: 8px;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            display: none;
+            /* Hide all elements by default */
+        }
+
+        @media only screen and (max-width: 900px) {
+            .column {
+
+                width: 50%;
+
+                /* Hide all elements by default */
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .column {
+
+                width: 100%;
+
+                /* Hide all elements by default */
+            }
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* The "show" class is added to the filtered elements */
+        .show {
+            display: block;
+        }
+
+        /* Style the buttons */
+        .btn {
+            /*background-color: #fff;*/
+            filter: drop-shadow(0 0 4px rgba(136, 136, 136, 0.08));
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 5px 13px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #2bb573;
+            color: white;
+        }
+
+        .bgyellow {
+            background-color: #ffc10782;
+        }
+
+        .bgred {
+            background-color: #d68d6d73;
+        }
+
+        .bggreen {
+            background-color: #86980c66;
+        }
+
+        .bggrey {
+            background-color: #a3b9c77a;
+        }
+
+        .bgbrown {
+            background-color: #53392a6e;
+        }
+     
+        .titles_cls {
+            background: #3863ff;
+            color: #fff;
+            padding: 8px 10px;
+            font-size: 15px;
+            border-radius: 6px 0 0 6px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            display: inline-block;
+            text-align: center;
+            line-height: 20px;
+            text-transform: uppercase;
+            height: 224px;
+            width: 40px;
+        }
+
+        #fixed-social {
+            position: fixed;
+            z-index: 99999;
+            top: 180px;
+            right: -153px;
+            transition: all 0.5s;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+
+        #fixed-social:hover {
+            right: 0;
+        }
+
+
+        #fixed-social img {
+            display: block;
+            width: 152px;
+            height: 224px;
+        }
+
+        #fixed-social a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        element.style {
+            display: block;
+            text-align: center;
+            margin-top: -40px;
+        }
+        .shadow{
+            box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+            -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+            -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+        }
